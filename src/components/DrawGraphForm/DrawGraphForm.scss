@@ -1,0 +1,32 @@
+.DrawGraphForm {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+
+  &-inputs {
+    &-y, &-x {
+      display: flex;
+    }
+
+    &-y {
+      margin-bottom: 16px;
+    }
+
+    &-x  {
+      .MuiTextField-root {
+        flex-grow: 1;
+      }
+    }
+
+    .MuiTextField-root {
+      &:first-child {
+        margin-right: 16px;
+      }
+    }
+  }
+
+  &-btn {
+    display: flex;
+    margin-left: 16px;
+  }
+}

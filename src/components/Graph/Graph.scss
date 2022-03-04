@@ -1,0 +1,22 @@
+.graph-box {
+  display: flex;
+  justify-content: center;
+
+  .Graph {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    color: #9808d1;
+  
+    &-buttons {
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 0;
+  
+      button:first-child {
+        margin-right: 6px;
+      }
+    }
+  }
+}
